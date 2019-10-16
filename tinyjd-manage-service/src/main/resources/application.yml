@@ -1,0 +1,34 @@
+server:
+  port: 8071
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  dubbo:
+    application:
+      name: manage-service
+    protocol: dubbo
+    registry:
+      protocol: zookeeper
+      address: 192.168.159.3:2181
+    base-package: com.dcxiaolou.tinyJD
+  datasource:
+    url: jdbc:mysql://localhost:3306/gmall?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 135511
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+  redis:
+    host: 192.168.159.3
+    port: 6379
+    database: 0
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*Mapper.xml
+logging:
+  level:
+    root: debug
