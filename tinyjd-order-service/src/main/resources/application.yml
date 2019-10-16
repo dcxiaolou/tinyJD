@@ -1,0 +1,39 @@
+server:
+  port: 8076
+  tomcat:
+    uri-encoding: utf-8
+
+spring:
+  dubbo:
+    application:
+      name: order-service
+    protocol: dubbo
+    registry:
+      protocol: zookeeper
+      address: 192.168.159.3:2181
+    base-package: com.dcxiaolou.tinyJD
+  datasource:
+    url: jdbc:mysql://localhost:3306/gmall?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 135511
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+  redis:
+    host: 192.168.159.3
+    port: 6379
+    database: 0
+
+  activemq:
+    broker-url: tcp://192.168.159.3:61616
+activemq:
+  listener:
+    enable: true
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*Mapper.xml
+
