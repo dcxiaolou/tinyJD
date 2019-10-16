@@ -1,0 +1,24 @@
+server:
+  port: 8082
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  dubbo:
+    application:
+      name: item-web
+    protocol: dubbo
+    registry:
+      protocol: zookeeper
+      address: 192.168.159.3:2181
+    consumer:
+      timeout: 600000
+      check: false
+    base-package: com.dcxiaolou.gmall
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
