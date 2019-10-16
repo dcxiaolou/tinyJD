@@ -1,0 +1,28 @@
+server:
+  port: 8070
+
+spring:
+  dubbo:
+    application:
+      name: user-service
+    protocol:
+      name: dubbo
+    registry:
+      protocol: zookeeper
+      address: 192.168.159.3:2181
+    base-package: com.dcxiaolou.tinyJD
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gmall?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 135511
+  redis:
+    host: 192.168.159.3
+    port: 6379
+    database: 0
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+#logging:
+#  level:
+#    root: debug
