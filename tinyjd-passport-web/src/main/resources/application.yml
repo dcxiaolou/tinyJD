@@ -1,0 +1,28 @@
+server:
+  port: 8085
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  dubbo:
+    application:
+      name: passport-web
+    protocol: dobbo
+    registry:
+      address: 192.168.159.3:2181
+      protocol: zookeeper
+    consumer:
+      timeout: 600000
+      check: false
+    base-package: com.dcxiaolou.tinyJD
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+  elasticsearch:
+    jest:
+      uris: http://192.168.159.3:9200
+
