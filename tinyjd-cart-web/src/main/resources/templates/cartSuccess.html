@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="stylesheet" type="text/css"
+          th:href="@{/css/base.css}">
+    <link th:href="@{/css/initcart20150123.css}" type="text/css"
+          rel="stylesheet">
+    <title>商品已成功加入购物车</title>
+    <style id="style-1-cropbar-clipper">
+        /* Copyright 2014 Evernote Corporation. All rights reserved. */
+        .en-markup-crop-options {
+            top: 18px !important;
+            left: 50% !important;
+            margin-left: -100px !important;
+            width: 200px !important;
+            border: 2px rgba(255, 255, 255, .38) solid !important;
+            border-radius: 4px !important;
+        }
+
+        .en-markup-crop-options div div:first-of-type {
+            margin-left: 0px !important;
+        }
+    </style>
+</head>
+<body class="root61">
+
+<div th:replace="commons/header::header"></div>
+<!--main start-->
+<div class="w main">
+    <div class="left">
+        <div class="m" id="succeed">
+
+            <div class="corner tl"></div>
+            <div class="corner tr"></div>
+            <div>
+                <div class="p-item">
+                    <div class="p-img" style="float: left">
+                        <a href="/javascript:;" target="_blank"><img style="height: 100px;width:100px;"
+                                                                     th:src="@{${skuInfo.skuDefaultImg}}"></a>
+                    </div>
+                    <div class="p-info" style="padding: 20px;font-size: 12pt;">
+                        <div class="p-name">
+                            <a th:href="'http://item.gmall.com/'+${skuInfo.id}+'.html'" th:title="${skuInfo.skuName}"
+                               th:text="${skuInfo.skuName}"> 商品名称</a>
+                        </div>
+                        <div class="p-extra"style="padding: 10px;"><span class="txt" th:text="'数量:'+${num}"> 数量： XX</span></div>
+                    </div>
+                </div>
+            </div>
+            <div style="padding: 10px">
+                <div class="success">
+                    <div class="success-b">
+                        <h3>商品已成功加入购物车！</h3>
+                        <span id="flashBuy" style="display: none">商品数量有限，请您尽快下单并付款！</span>
+                    </div>
+                    <span id="initCart_next_go"> <a class="btn-1"
+                                                    href="http://cart.gmall.com:8084/cartList"
+                                                    id="GotoShoppingCart">去购物车结算</a> <span class="ml10">您还可以 <a
+                            class="ftx-05" href="javascript:history.back();">继续购物</a></span>
+					</span>
+                </div>
+            </div>
+            <!--succeed end-->
+
+        </div>
+    </div>
+    <div th:replace="commons/footer::footer"></div>
+</body>
+<script type="text/javascript">
+
+    $(function () {
+        $.ajax({
+            url : 'http://passport.gmall.com:8085/getUserInfo',
+            type : "GET",
+            async : false,
+            dataType : "jsonp",
+            jsonpCallback : "jsonpCallback",//自定义的jsonp回调函数名,默认为jQuery自动生成的随机函数
+            jsonp : "callback",//传递给请求处理程序或页面的,用以获得jsonp回调函数名的参数名(默认为callback)
+            success : function(data) {
+                /*console.log(data);
+                console.log(data.name);
+                alert("服务器连接成功 ajax"+data);*/
+                if (data.username) {
+                    var html = "<a href='http://order.gmall.com:8086/toTrade' class=''>" + data.username + "</a>" +
+                        " <a href='http://passport.gmall.com:8085/logout?returnUrl=http://search.gmall.com:8083/index'>退出登录</a>";
+                    $("#loginbar").html(html);
+                }
+            },
+            error : function(data) {
+                /*console.log(data);
+                console.log(data.name);
+                alert("服务器连接失败 ajax"+data);*/
+            }
+        });
+    });
+
+</script>
+</html>

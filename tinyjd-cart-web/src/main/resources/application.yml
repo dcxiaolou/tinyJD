@@ -1,0 +1,25 @@
+server:
+  port: 8084
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  dubbo:
+    application:
+      name: cart-web
+    protocol: dubbo
+    registry:
+      protocol: zookeeper
+      address: 192.168.159.3:2181
+    consumer:
+      timeout: 600000
+      check: false
+    base-package: com.dcxiaolou.tinyJD
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    prefix: classpath:/templates/
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
