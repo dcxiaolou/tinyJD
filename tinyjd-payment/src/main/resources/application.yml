@@ -1,0 +1,40 @@
+server:
+  port: 8087
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  dubbo:
+    application:
+      name: payment
+    protocol: dubbo
+    registry:
+      address: 192.168.159.3:2181
+      protocol: zookeeper
+    consumer:
+      timeout: 600000
+      check: false
+    base-package: com.dcxiaolou.tinyJD
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/gmall?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 135511
+
+  activemq:
+    broker-url: tcp://192.168.159.3:61616
+activemq:
+  listener:
+    enable: true
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*Mapper.xml
