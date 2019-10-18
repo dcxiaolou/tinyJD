@@ -1,5 +1,7 @@
 ## tinyJD 仿京东商城项目简介
 
+若图片加载失败，请访问 [github 国外(稳定)](https://dcxiaolou.github.io/2019/10/18/仿京东商城项目简介/) 或 [coding 国内(快速)](https://0teem0.coding-pages.com/2019/10/18/仿京东商城项目简介/)
+
 本次介绍的项目是一个综合性的B2C平台，非常类似京东商城
 
 ![logo](https://dcxiaolou.coding.net/p/MyPicGo/git/raw/master/img-tinyjd/tinyjd-logo.png)
