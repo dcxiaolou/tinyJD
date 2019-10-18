@@ -1,10 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13fb0a53-ccce-4370-9cf3-1612a6cd3748" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="13fb0a53-ccce-4370-9cf3-1612a6cd3748" name="Default Changelist" comment="service的工具类-ActiveMQ、Redis">
       <change afterPath="$PROJECT_DIR$/tinyJD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-api/tinyJD-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-cart-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-common-util/tinyjd-common-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-item-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-item-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-item-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-item-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-item-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-item-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-manage-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-order-web/mvnw.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tinyjd-parent/tinyJD-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-passport-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-passport-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-passport-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-passport-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-passport-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-passport-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-payment/src/main/resources/alipay.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-search-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-service-util/tinyjd-service-util.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-web/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-user-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tinyjd-web-util/tinyjd-web-util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,6 +95,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -44,24 +130,6 @@
             <path>
               <item name="tinyJD" type="b2602c69:ProjectViewProjectNode" />
               <item name="tinyJD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tinyJD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tinyJD" type="462c0819:PsiDirectoryNode" />
-              <item name="tinyjd-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tinyJD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tinyJD" type="462c0819:PsiDirectoryNode" />
-              <item name="tinyjd-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tinyJD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tinyJD" type="462c0819:PsiDirectoryNode" />
-              <item name="tinyjd-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,7 +171,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571242978292</updated>
-      <workItem from="1571242980155" duration="242000" />
+      <workItem from="1571242980155" duration="4043000" />
     </task>
     <task id="LOCAL-00001" summary="所有maven module的父依赖，定义了依赖的模块及版本">
       <created>1571243186652</created>
@@ -112,11 +180,123 @@
       <option name="project" value="LOCAL" />
       <updated>1571243186652</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="所有bean和service接口">
+      <created>1571243566817</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571243566817</updated>
+    </task>
+    <task id="LOCAL-00003" summary="公共的工具类-HttpClientUtil">
+      <created>1571243678434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571243678434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="service的工具类-ActiveMQ、Redis">
+      <created>1571243849705</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571243849705</updated>
+    </task>
+    <task id="LOCAL-00005" summary="web的工具类-LoginRequired、AuthInterceptor、CookieUtil、JwtUtil">
+      <created>1571244022738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571244022738</updated>
+    </task>
+    <task id="LOCAL-00006" summary="user-service、user-web">
+      <created>1571244249978</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571244249978</updated>
+    </task>
+    <task id="LOCAL-00007" summary="后台管理服务">
+      <created>1571244414008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571244414008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="后台管理web层服务">
+      <created>1571244592791</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571244592791</updated>
+    </task>
+    <task id="LOCAL-00009" summary="商品详情web端服务">
+      <created>1571244773169</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571244773169</updated>
+    </task>
+    <task id="LOCAL-00010" summary="门户、搜索service服务">
+      <created>1571244935200</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571244935200</updated>
+    </task>
+    <task id="LOCAL-00011" summary="门户、搜素web层服务">
+      <created>1571245246852</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1571245246852</updated>
+    </task>
+    <task id="LOCAL-00012" summary="购物车的service服务">
+      <created>1571245442119</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571245442119</updated>
+    </task>
+    <task id="LOCAL-00013" summary="购物车的web层服务">
+      <created>1571245669587</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1571245669587</updated>
+    </task>
+    <task id="LOCAL-00014" summary="订单的service层服务">
+      <created>1571245752799</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571245752799</updated>
+    </task>
+    <task id="LOCAL-00015" summary="订单的web层服务">
+      <created>1571246039629</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571246039629</updated>
+    </task>
+    <task id="LOCAL-00016" summary="单点登录">
+      <created>1571246118136</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571246118136</updated>
+    </task>
+    <task id="LOCAL-00017" summary="支付服务">
+      <created>1571246367594</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1571246367595</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242000" />
+    <option name="totallyTimeSpent" value="4043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -156,7 +336,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="所有maven module的父依赖，定义了依赖的模块及版本" />
-    <option name="LAST_COMMIT_MESSAGE" value="所有maven module的父依赖，定义了依赖的模块及版本" />
+    <MESSAGE value="所有bean和service接口" />
+    <MESSAGE value="公共的工具类-HttpClientUtil" />
+    <MESSAGE value="service的工具类-ActiveMQ、Redis" />
+    <MESSAGE value="web的工具类-LoginRequired、AuthInterceptor、CookieUtil、JwtUtil" />
+    <MESSAGE value="user-service、user-web" />
+    <MESSAGE value="后台管理服务" />
+    <MESSAGE value="后台管理web层服务" />
+    <MESSAGE value="商品详情web端服务" />
+    <MESSAGE value="门户、搜索service服务" />
+    <MESSAGE value="门户、搜素web层服务" />
+    <MESSAGE value="购物车的service服务" />
+    <MESSAGE value="购物车的web层服务" />
+    <MESSAGE value="订单的service层服务" />
+    <MESSAGE value="订单的web层服务" />
+    <MESSAGE value="单点登录" />
+    <MESSAGE value="支付服务" />
+    <option name="LAST_COMMIT_MESSAGE" value="支付服务" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tinyjd-user-web/src/main/java/com/dcxiaolou/tinyJD/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -92,9 +92,11 @@ public class CartServiceImpl implements CartService {
         omsCartItem.setProductSkuId(productSkuId);
         omsCartItem = cartMapper.selectOne(omsCartItem);
         System.out.println("delCartItemBySkuId: " + omsCartItem);
-        String memberId = omsCartItem.getMemberId();
-        cartMapper.delete(omsCartItem);
-        // 同步缓存
-        flushCartCache(memberId);
+        if (omsCartItem != null) {
+            String memberId = omsCartItem.getMemberId();
+            cartMapper.delete(omsCartItem);
+            // 同步缓存
+            flushCartCache(memberId);
+        }
     }
 }

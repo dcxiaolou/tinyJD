@@ -127,6 +127,16 @@ public class OrderController {
 
 
             List<OmsCartItem> omsCartItems = cartService.cartList(memberId);
+            // 判断cookie中是否包含商品
+            String cookieValue = CookieUtil.getCookieValue(request, "cartListCookie", true);
+            if (StringUtils.isNotBlank(cookieValue)) {
+                List<OmsCartItem> omsCartItemsFromCookie = JSON.parseArray(cookieValue, OmsCartItem.class);
+                if (omsCartItems != null) {
+                    omsCartItems.addAll(omsCartItemsFromCookie);
+                } else {
+                    omsCartItems = omsCartItemsFromCookie;
+                }
+            }
             for (OmsCartItem omsCartItem : omsCartItems) {
                 if (omsCartItem.getIsChecked().equals("1")) {
                     //获取订单详情
